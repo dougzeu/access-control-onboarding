@@ -1,0 +1,15 @@
+---
+alwaysApply: true
+---
+
+# Frontend-Only React Development
+
+**FORBIDDEN:** Backend servers, databases, APIs, authentication servers, Docker, server middleware, or any server-side code.
+
+**ALLOWED ONLY:** React components, Material-UI, client-side state, frontend routing, external API calls, static assets.
+
+**Project Structure:** All code in `src/`, components in `src/components/`, use [package.json](mdc:package.json) dependencies only.
+
+**External Services:** Use third-party SaaS (Auth0, Firebase) with client-side SDKs only.
+
+**Rule:** If it requires backend development, find a frontend-only alternative or use external services.

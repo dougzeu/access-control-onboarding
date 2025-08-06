@@ -1,0 +1,25 @@
+---
+alwaysApply: true
+---
+
+# Desktop-Only Design Rules
+
+**Frontend-Only React Development**: Desktop-only application - no mobile support.
+
+## Design Principles
+
+- **Target Resolution**: Minimum 1024px width - optimized for desktop/laptop screens
+- **Fixed Sizing**: Use fixed values instead of responsive breakpoints
+- **Component Sizing**: Standard desktop sizing (e.g., `p: 4`, `p: 5`)
+- **Typography**: Use large, readable fonts for desktop (e.g., `fontSize: '2.5rem'`)
+- **Layout**: Always use horizontal layouts (`flexDirection: 'row'`)
+- **Interaction**: Mouse and keyboard input only
+
+## Implementation
+- **NO** viewport meta tag for mobile
+- **NO** responsive breakpoint props (`xs:`, `sm:`, `md:`, `lg:`, `xl:`)
+- **NO** mobile-first considerations
+- Use fixed spacing and sizing values throughout
+- Standard desktop interaction patterns (hover states, etc.)
+
+**Application Type**: Access control onboarding system for desktop business environments.

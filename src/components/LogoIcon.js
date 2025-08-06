@@ -1,0 +1,27 @@
+import React from 'react';
+import { SvgIcon } from '@mui/material';
+
+const LogoIcon = (props) => {
+  return (
+    <SvgIcon {...props} viewBox="0 0 62 62">
+      <defs>
+        <filter id="filter0_d_26777_383169" x="0" y="1.19209e-07" width="62" height="62" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+          <feOffset dy="1"/>
+          <feGaussianBlur stdDeviation="1.5"/>
+          <feComposite in2="hardAlpha" operator="out"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0.180392 0 0 0 0 0.180392 0 0 0 0 0.180392 0 0 0 0.12 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_26777_383169"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_26777_383169" result="shape"/>
+        </filter>
+      </defs>
+      <g filter="url(#filter0_d_26777_383169)">
+        <rect x="3" y="2" width="56" height="56" rx="8" fill="#4F47E6"/>
+        <path d="M29.1044 14.6001L49.1181 34.6412V45.4001H39.7784V38.5088L25.2422 23.9526H22.2225V45.4001H12.8828V14.6001H29.1044ZM39.7784 25.2887V14.6001H49.1181V25.2887H39.7784Z" fill="white"/>
+      </g>
+    </SvgIcon>
+  );
+};
+
+export default LogoIcon;
