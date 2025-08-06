@@ -56,6 +56,47 @@ npm start
 
 3. Open your browser to `http://localhost:3000`
 
+## Live Demo
+
+🌐 **Live Application**: https://access-control-5dc77.web.app
+
+The application is deployed on Firebase Hosting and ready for use.
+
+## Deployment
+
+### Firebase Hosting
+
+This application is configured for Firebase Hosting deployment:
+
+1. **Build for production**:
+```bash
+npm run build
+```
+
+2. **Deploy to Firebase** (requires Firebase CLI):
+```bash
+firebase deploy --only hosting
+```
+
+3. **Project Configuration**:
+   - Project ID: `access-control-5dc77`
+   - Hosting URL: https://access-control-5dc77.web.app
+   - Console: https://console.firebase.google.com/project/access-control-5dc77/overview
+
+### Firebase Setup (if needed)
+
+1. Install Firebase CLI:
+```bash
+npm install -g firebase-tools
+```
+
+2. Login to Firebase:
+```bash
+firebase login
+```
+
+3. The project is already configured with `firebase.json` and `.firebaserc`
+
 ## Tech Stack
 
 - **React 18** - Frontend framework
